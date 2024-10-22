@@ -1,0 +1,15 @@
+# @package _global_
+data_module:
+  _target_: data.mimic_liver_data.MIMICLiverDataModule
+  naming: MIMICLiverDataModule
+  train_consecutive: true 
+  memory: 0
+  x_headings: 
+    - 1
+    - MAP
+  cond_headings: 
+    - prbc_outcome
+    - pressor
+    - bloodprod
+    - severe_liver
+  

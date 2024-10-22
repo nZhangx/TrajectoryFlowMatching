@@ -1,0 +1,5 @@
+trainer:
+  max_epochs: 20000
+  check_val_every_n_epoch: 100
+  gpus: 1
+  precision: 32

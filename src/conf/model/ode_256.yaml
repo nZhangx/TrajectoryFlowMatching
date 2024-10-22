@@ -1,0 +1,10 @@
+# @package _global_
+model_module:
+  _target_: model.ode_baseline.ODEBaseline
+  dim: 2 
+  w: 256
+  lr: 1e-5
+  metrics:
+    - variance_dist
+    - mse_loss
+    - l1_loss

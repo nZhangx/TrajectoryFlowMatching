@@ -1,0 +1,3 @@
+src/outputs/*
+outputs/*
+*pycache*

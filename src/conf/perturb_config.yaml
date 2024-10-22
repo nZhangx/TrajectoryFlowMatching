@@ -1,0 +1,16 @@
+# @package _global_
+defaults:
+  - data: eICU
+  - model: noise_mlp_memory_sde
+
+
+wandb_logging: true
+wandb_project: clinical_trajectory
+wandb_dir: wandb_log/
+ckpt_dir: checkpoints/
+max_epochs: 200
+max_time: 00:48:00:00
+check_val_every_n_epoch: 10
+skip_training: false
+mode: None 
+seed: 42

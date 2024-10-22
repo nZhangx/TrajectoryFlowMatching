@@ -1,0 +1,15 @@
+# @package _global_
+model_module:
+  _target_: model.mlp_noise.Noise_MLP_Cond_Memory_Module
+  time_varying: true
+  conditional: true
+  treatment_cond: 0
+  memory: 3
+  dim: 2
+  w: 256
+  clip: 1e-2
+  sigma: 0.1
+  metrics:
+    - variance_dist
+    - mse_loss
+    - l1_loss
