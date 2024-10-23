@@ -21,7 +21,7 @@
 Trajectory Flow Matching (TFM) is a method that leverages the flow matching technique from generative modeling to model time series. This approach offers a simulation-free training process, allowing for efficient fitting of stochastic differential equations to time-series data. Augmented with memory, time interval prediction, and uncertainty prediction, TFM can better model irregularly sampled trajectories with stochastic nature, for example clinical time series.
 
 <p align="center">
-<img src="assets/traj_concept.png" width="600"/>
+<img src="assets/revised_tfm_fig1.png" width="600"/>
 </p>
 
 The idea of TFM lies in using flow matching concept to predict both stochastic uncertainty and the next value in the time series. The prediction is conditioned on past data and conditional variables.
