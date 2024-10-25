@@ -50,7 +50,7 @@ conda env create -f environment.yml
 ```
 
 ### Run experiments
-Under `lightning`, define `DATA.yml` in `conf/data` and `MODEL.yml` in `conf/model` with desired configurations. The default setting runs TFM with a toy dataset with the same headings (data available).
+Under `lightning`, define `DATA.yml` in `conf/data` and `MODEL.yml` in `conf/model` with desired configurations. The default setting runs TFM with a toy dataset with the same headings.
 ```bash
 python src/main.py
 ```
@@ -73,9 +73,9 @@ python src/main.py
 | TFM (ours)     | 0.796 $\pm$ 0.026          | **2.755 $\pm$ 0.015** | **2.596 $\pm$ 0.079** | 8.613 $\pm$ 0.260           |
 
 
-<!-- ### Available datasets -->
+### Available datasets
 <!-- [ ] TODO: how to share the datasets? create a folder in the repo and upload the eICU and MIMIC pickle files? -->
-
+We plan to share the clinical data we used that are from the [eICU Collaborative Research Database v2.0](https://physionet.org/content/eicu-crd/2.0/) (ICU sepsis and ICU Cardiac Arrest) and the [Medical Information Mart for Intensive Care III (MIMIC-III) critical care database](https://physionet.org/content/mimiciii/1.4/) (ICU GIB) on [Physionet](https://physionet.org/).
 
 ## How to cite
 
