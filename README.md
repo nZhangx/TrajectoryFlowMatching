@@ -50,9 +50,9 @@ conda env create -f environment.yml
 ```
 
 ### Run experiments
-Under `lightning`, define `DATA.yml` in `conf/data` and `MODEL.yml` in `conf/model` with desired configurations. Then run the specified MODEL on the specified DATA using
+Under `lightning`, define `DATA.yml` in `conf/data` and `MODEL.yml` in `conf/model` with desired configurations. The default setting runs TFM with a toy dataset with the same headings (data available).
 ```bash
-python src/main.py data=DATA model=MODEL
+python src/main.py
 ```
 
 ### Implemented models

@@ -2,7 +2,7 @@
 data_module:
   _target_: data.datamodule.clinical_DataModule
   train_consecutive: true
-  file_path: /home/mila/x/xi.zhang/scratch/shung_ICU/eICU/eICU_df_cleaned_all_JAN30.pkl
+  file_path: data/toy_data.pkl
   naming: eICU_DataModule_J30_v1 
   t_headings: time_scaled_v1
   x_headings: 
