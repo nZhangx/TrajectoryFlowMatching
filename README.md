@@ -38,8 +38,8 @@ The idea of TFM lies in using flow matching concept to predict both stochastic u
 ### Initialize environment
 ```bash
 # clone project
-git clone https://github.com/nZhangx/normalizing_flow_time_series.git
-cd normalizing_flow_time_series
+git clone https://github.com/nZhangx/TrajectoryFlowMatching.git
+cd TrajectoryFlowMatching
 
 # [OPTIONAL] create conda environment
 conda create -n tfm python=3.10
@@ -50,10 +50,13 @@ conda env create -f environment.yml
 ```
 
 ### Run experiments
-Under `lightning`, define `DATA.yml` in `conf/data` and `MODEL.yml` in `conf/model` with desired configurations. The default setting runs TFM with a toy dataset with the same headings.
+Under `src`, create new a `DATA_NAME.yml` under `conf/data` and a `MODEL_NAME.yml` under `conf/model` with desired configurations. Then replace `data` and `model` definitions in `conf/config.yaml` with your `DATA_NAME` and `MODEL_NAME`. Then run
 ```bash
 python src/main.py
 ```
+
+### Demo
+We have included an example of TFM modeling three crossing oscillations in a self-contained Jupyter notebook `notebook/3Oscillation.ipynb`.
 
 ### Implemented models
 <!-- [ ] TODO: check; copied from "4 Experimental Results - Baseline" section in the manuscript -->
