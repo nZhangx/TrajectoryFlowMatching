@@ -7,7 +7,7 @@
 
 [x] TODO: check license -->
 
-[![TFM Preprint](http://img.shields.io/badge/paper-arxiv.PLACEHOLDER-B31B1B.svg)](https://arxiv.org/abs/PLACEHOLDER)
+[![TFM Preprint](http://img.shields.io/badge/paper-arxiv.PLACEHOLDER-B31B1B.svg)](http://arxiv.org/abs/2410.21154)
 [![pytorch](https://img.shields.io/badge/PyTorch_1.8+-ee4c2c?logo=pytorch&logoColor=white)](https://pytorch.org/get-started/locally/) 
 [![lightning](https://img.shields.io/badge/-Lightning_1.6+-792ee5?logo=pytorchlightning&logoColor=white)](https://pytorchlightning.ai/) 
 [![hydra](https://img.shields.io/badge/Config-Hydra_1.2-89b8cd)](https://hydra.cc/)
