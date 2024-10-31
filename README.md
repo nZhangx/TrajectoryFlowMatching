@@ -84,7 +84,7 @@ We plan to share the clinical data we used that are from the [eICU Collaborative
 ## How to cite
 
 This repository contains the code to reproduce the main experiments and illustrations of the preprint [Trajectory Flow Matching with Applications to
-Clinical Time Series Modeling](https://arxiv.org/abs/PLACEHOLDER). We are excited that it was marked as a **spotlight** presentation.
+Clinical Time Series Modeling](https://arxiv.org/abs/2410.21154). We are excited that it was marked as a **spotlight** presentation.
 
 If you find this code useful in your research, please cite (expand for BibTeX):
 
